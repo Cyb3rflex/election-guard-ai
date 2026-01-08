@@ -1,0 +1,11 @@
+src_ip,alerts
+192.168.1.10,High request rate (4)
+192.168.1.15,High request rate (3)
+192.168.1.10,High request rate (4)
+192.168.1.15,High request rate (3)
+192.168.1.10,High request rate (4); Traffic spike (1.46×); Byte spike (1.46×)
+192.168.1.22,Traffic spike (1.33×); Byte spike (1.33×)
+192.168.1.10,High request rate (4); Traffic spike (1.94×); Byte spike (1.95×)
+192.168.1.15,High request rate (3); Traffic spike (2.63×); Byte spike (2.67×)
+192.168.1.18,Traffic spike (1.82×); Byte spike (1.81×)
+192.168.1.20,Traffic spike (1.85×); Byte spike (1.85×)
