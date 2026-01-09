@@ -1,6 +1,6 @@
 src_ip,alerts,anomaly_label,anomaly_score,explanation
-192.168.1.10,High request rate (4); Traffic spike (1.46×); Byte spike (1.46×); High request rate (4); Traffic spike (1.94×); Byte spike (1.95×); High request rate (4),anomaly; normal,0.0038252208663214,Normal network behavior; AI model identified unusual behavior pattern
-192.168.1.15,High request rate (3); High request rate (3); Traffic spike (2.63×); Byte spike (2.67×),anomaly; normal,0.1142648887220618,Normal network behavior; AI model identified unusual behavior pattern
+192.168.1.10,High request rate (4); Traffic spike (1.94×); Byte spike (1.95×); High request rate (4); High request rate (4); Traffic spike (1.46×); Byte spike (1.46×),normal; anomaly,0.0038252208663214,AI model identified unusual behavior pattern; Normal network behavior
+192.168.1.15,High request rate (3); High request rate (3); Traffic spike (2.63×); Byte spike (2.67×),normal; anomaly,0.1142648887220618,AI model identified unusual behavior pattern; Normal network behavior
 192.168.1.18,Traffic spike (1.82×); Byte spike (1.81×),normal,-0.0655642899970016,Normal network behavior
 192.168.1.20,Traffic spike (1.85×); Byte spike (1.85×),normal,-0.0675201542227615,Normal network behavior
 192.168.1.22,Traffic spike (1.33×); Byte spike (1.33×),normal,-0.0647652901392059,Normal network behavior

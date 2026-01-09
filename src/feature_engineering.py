@@ -8,7 +8,7 @@ def load_raw_logs(file_path: Path) -> pd.DataFrame:
 def generate_features(df: pd.DataFrame) -> pd.DataFrame:
     """Generate numerical features for anomaly detection"""
     # Request rate per src_ip (requests per minute)
-    df['minute'] = df['timestamp'].dt.floor('T')
+    df['minute'] = df['timestamp'].dt.floor('min')
     req_rate = df.groupby(['src_ip', 'minute']).size().reset_index(name='request_rate')
     df = df.merge(req_rate, on=['src_ip', 'minute'], how='left')
     
